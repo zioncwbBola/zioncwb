@@ -17,6 +17,12 @@ body {
   @apply font-sans bg-[var(--bg-color)] text-[var(--text-color)];
 }
 
+body{
+  background: linear-gradient(101deg, var(--primary) 0%, var(--secondary) 48%, var(--accent) 100%);
+}
+.base-gradient {
+  background: linear-gradient(101deg, var(--primary) 0%, var(--secondary) 48%, var(--accent) 100%);
+}
 h1, h2, h3, h4, h5, h6 {
   @apply font-heading;
 }

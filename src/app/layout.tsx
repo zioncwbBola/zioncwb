@@ -45,7 +45,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
   return (
     <html lang="en">
-      <body className="bg-space-1 text-space-5 dark:bg-mountain-5 dark:text-mountain-1">
+      <body className="bg-gradient-to-t from-space-1 to-space-4 dark:bg-gradient-to-t dark:from-mountain-5 dark:to-mountain-4 text-space-5  dark:text-mountain-1">
         <div className="flex flex-col lg:flex-row">
           <Navbar />
           <main className="flex-1 p-4 lg:ml-64">

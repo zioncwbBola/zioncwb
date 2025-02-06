@@ -26,7 +26,7 @@ type SectionProps = {
 };
 
 const Section: FC<SectionProps> = ({ id, title, children }) => (
-  <section id={id} className="min-h-screen p-4 md:p-8">
+  <section id={id} className=" min-h-screen p-4 md:p-8 md:flex md:flex-col mt-10">
     <h2 className="text-3xl md:text-4xl font-bold text-[var(--text-color)] mb-4">{title}</h2>
     {children}
     <hr className="border-[var(--text-color)] mt-8" />
