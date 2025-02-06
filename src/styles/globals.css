@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Variáveis customizadas para temas */
+:root.space {
+  --bg-color: #081640;
+  --text-color: #63D8F2;
+}
+
+:root.mountain {
+  --bg-color: #8C2A6A;
+  --text-color: #F266E9;
+}
+
+body {
+  @apply font-sans bg-[var(--bg-color)] text-[var(--text-color)];
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-heading;
+}
+
+a {
+  @apply text-[var(--text-color)] hover:text-space-5 dark:hover:text-mountain-4;
+}
